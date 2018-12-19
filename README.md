@@ -24,10 +24,10 @@ npm run dev
 ```
 
 ### 项目效果演示
-！[Image](https://github.com/himscxh/zhihuDaily/blob/master/src/assets/images/total.gif)
+！[image](https://github.com/himscxh/zhihuDaily/blob/master/src/assets/images/total.gif)
 
 ### 项目主要结构 
-！[Image](https://github.com/himscxh/zhihuDaily/blob/master/src/assets/images/main.png)
+！[image](https://github.com/himscxh/zhihuDaily/blob/master/src/assets/images/main.png)
 
 ### 已完成功能
 > **新闻列表页**
@@ -65,7 +65,7 @@ npm run dev
 
 知乎日报 app 的新闻列表页随着页面的滚动会有类似日期标题栏“吸顶”的效果，实际上我处理成随页面滚动修改顶部标题框内的标题内容。
 
-！[Image](https://github.com/himscxh/zhihuDaily/blob/master/src/assets/images/newsList.gif)
+！[image](https://github.com/himscxh/zhihuDaily/blob/master/src/assets/images/newsList.gif)
 
 这里需要判断的目标有两个，向下滚动时判断下一个日期标题栏（nextDom）是否到达页面顶部，向上滚动时判断当前日期标题栏（currentDom）是否低于页面顶部。因此需要获取 nextDom , currentDom 这两个节点，每当 nextDom 到达页面顶部或 currentDom 低于页面顶部时就需要修改页面顶部标题和更新两个节点。
 
@@ -143,7 +143,7 @@ updateNewsIdList (state, option) {
 </template>
 ```
 
-！[Image](https://github.com/himscxh/zhihuDaily/blob/master/src/assets/images/home.gif)
+！[image](https://github.com/himscxh/zhihuDaily/blob/master/src/assets/images/home.gif)
 
 主页侧滑栏显隐的交互动效处理细节：
 
